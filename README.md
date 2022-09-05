@@ -1,13 +1,12 @@
 # Sales-Prediction-For-Pharmaceutical
 
-this project is to forecast sales in all the stores across several cities six weeks ahead of time buy building and serving an end-to-end product that delivers this prediction to analysts in the finance team.
+This project is to forecast sales in all the stores across several cities six weeks ahead of time buy building and serving an end-to-end product that delivers this prediction to analysts in the finance team.
 
 **Table of content**
 
-- [Introduction](#introduction)
-- [Overview](#overview)
 - [Install](#install)
 - [Data](#data)
+- [Dashboard](#dashboard)
 - [Notebooks](#notebooks)
 - [Models](#models)
 - [Scripts](#scripts)
@@ -16,7 +15,7 @@ this project is to forecast sales in all the stores across several cities six we
 
 ## Introduction
 
-As a Machine learning engineer, The finance team wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgment to forecast sales. My job is to build and serve an end-to-end product that delivers this prediction to analysts in the finance team.
+The finance team wants to forecast sales in all their stores across several cities six weeks ahead of time. Managers in individual stores rely on their years of experience as well as their personal judgment to forecast sales. As a Machine learning engineer, My job is to build and serve an end-to-end product that delivers this prediction to analysts in the finance team.
 
 ## Learning Outcomes
 
@@ -33,8 +32,8 @@ As a Machine learning engineer, The finance team wants to forecast sales in all 
 ## Install
 
 ```
-git clone https://github.com/Ad-Campaign-Performance/SmartAd_A-B_Testing_user_analysis.git
-cd SmartAd_A-B_Testing_user_analysis
+git clone https://github.com/AntenehTilaye/Sales-Prediction-For-Pharmaceutical.git
+cd Sales-Prediction-For-Pharmaceutical
 pip install -r requirements.txt
 ```
 
@@ -61,6 +60,10 @@ Most of the fields are self-explanatory. The following are descriptions for thos
 - Promo2 - Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating
 - Promo2Since[Year/Week] - describes the year and calendar week when the store started participating in Promo2
 - PromoInterval - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+## Dashboard
+
+> All the scripts for creating dashboard can be found in the Dashboard folder.
 
 ## Notebooks
 
