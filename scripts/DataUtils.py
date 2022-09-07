@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+import Log
+
 def missing_percent(df):
 
     '''
@@ -21,6 +23,7 @@ def missing_percent(df):
 
     # Calculate percentage of missing values
     print("The dataset contains", round(((totalMissing/totalCells) * 100), 2), "%", "missing values.")
+    Log.d("The dataset contains", round(((totalMissing/totalCells) * 100), 2), "%", "missing values.")
     
 def fill_using_median(df, cols):
 
@@ -40,6 +43,7 @@ def fill_using_median(df, cols):
     for name in cols:
         df.loc[pd.isnull(df[name]), [name]] = df[name].quantile(0.75) - df[name].quantile(0.25)
         
+    Log.d("Filling a DataFrame using median")
     return df
 
 def fill_using_mode(df, cols):
@@ -59,6 +63,8 @@ def fill_using_mode(df, cols):
         
     for name in cols:
         df[name].fillna(value=df[name].mode().iloc[0], inplace=True)
+    
+    Log.d("Filling a DataFrame using Mode")
         
     return df
 

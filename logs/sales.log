@@ -1,0 +1,142 @@
+2022-09-07 20:45:35,870 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\pyplot.py
+2022-09-07 20:45:40,726 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 20:45:40,726 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 20:45:40,726 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 20:45:40,726 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 20:45:40,726 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 20:45:47,526 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 20:45:47,526 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 20:45:47,526 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 20:45:47,526 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 20:45:47,526 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 20:45:49,483 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 20:45:49,483 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 20:45:49,483 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 20:45:49,483 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 20:45:49,483 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 20:45:50,656 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 20:45:50,656 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 20:45:50,656 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 20:45:50,656 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 20:45:50,656 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 20:46:00,492 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 20:46:00,492 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 20:46:00,492 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 20:46:00,492 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 20:46:00,492 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 20:46:00,608 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\2and3\builtins.pyi
+2022-09-07 20:46:00,708 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2022-09-07 21:10:15,591 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 21:10:15,591 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 21:10:15,591 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 21:10:15,606 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 21:10:15,606 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 21:10:15,675 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\frame.py
+2022-09-07 21:10:15,707 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\__init__.py
+2022-09-07 21:10:15,707 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\__init__.py
+2022-09-07 21:10:15,753 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\generic.py
+2022-09-07 21:10:15,791 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\base.py
+2022-09-07 21:10:15,807 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\accessor.py
+2022-09-07 21:10:15,823 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\indexing.py
+2022-09-07 21:10:15,838 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\arraylike.py
+2022-09-07 21:10:16,039 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\_typing.py
+2022-09-07 21:10:16,177 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\typing.py
+2022-09-07 21:10:16,556 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+2022-09-07 21:10:16,879 :  cache.py : DEBUG : 152 : pickle loaded: C:\ProgramData\Anaconda3\lib\site-packages\pandas\core\series.py
+2022-09-07 21:19:02,413 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 21:19:02,428 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 1
+2022-09-07 21:19:02,428 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:1]
+2022-09-07 21:19:02,428 :  diff.py : DEBUG : 425 : parse_part from 1 to 1 (to 0 in part parser)
+2022-09-07 21:19:02,428 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:45:57,822 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:45:57,893 :  diff.py : DEBUG : 293 : line_lengths old: 1; new: 3
+2022-09-07 22:45:57,895 :  diff.py : DEBUG : 297 : -> code[replace] old[1:1] new[1:3]
+2022-09-07 22:45:57,933 :  diff.py : DEBUG : 425 : parse_part from 1 to 3 (to 2 in part parser)
+2022-09-07 22:45:57,934 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:01,081 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:01,081 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:01,081 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:01,082 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:01,082 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:01,083 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:01,083 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:05,868 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:05,869 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:05,869 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:05,869 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:05,869 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:05,870 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:05,870 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:10,051 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:10,051 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:10,052 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:10,052 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:10,052 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:10,053 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:10,053 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:16,586 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:16,586 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:16,586 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:16,586 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:16,586 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:16,601 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:16,601 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:18,781 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 3
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 297 : -> code[equal] old[1:2] new[1:2]
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 380 : copy old[1:2] new[1:2]
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 297 : -> code[replace] old[3:3] new[3:3]
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 425 : parse_part from 3 to 3 (to 2 in part parser)
+2022-09-07 22:46:20,190 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:48,475 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:48,475 :  diff.py : DEBUG : 293 : line_lengths old: 3; new: 2
+2022-09-07 22:46:48,490 :  diff.py : DEBUG : 297 : -> code[equal] old[1:1] new[1:1]
+2022-09-07 22:46:48,490 :  diff.py : DEBUG : 380 : copy old[1:1] new[1:1]
+2022-09-07 22:46:48,490 :  diff.py : DEBUG : 297 : -> code[replace] old[2:3] new[2:2]
+2022-09-07 22:46:48,490 :  diff.py : DEBUG : 425 : parse_part from 2 to 2 (to 1 in part parser)
+2022-09-07 22:46:48,490 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 293 : line_lengths old: 2; new: 2
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 297 : -> code[equal] old[1:1] new[1:1]
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 380 : copy old[1:1] new[1:1]
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 297 : -> code[replace] old[2:2] new[2:2]
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 425 : parse_part from 2 to 2 (to 1 in part parser)
+2022-09-07 22:46:50,454 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 282 : diff parser start
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 293 : line_lengths old: 2; new: 2
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 297 : -> code[equal] old[1:1] new[1:1]
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 380 : copy old[1:1] new[1:1]
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 297 : -> code[replace] old[2:2] new[2:2]
+2022-09-07 22:46:50,926 :  diff.py : DEBUG : 425 : parse_part from 2 to 2 (to 1 in part parser)
+2022-09-07 22:46:50,942 :  diff.py : DEBUG : 339 : diff parser end
+2022-09-07 23:53:07,785 :  colorbar.py : DEBUG : 620 : locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C620E3BB08>
+2022-09-07 23:53:08,079 :  colorbar.py : DEBUG : 665 : Using auto colorbar locator <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C620E3BB08> on colorbar
+2022-09-07 23:53:08,079 :  colorbar.py : DEBUG : 794 : Setting pcolormesh
+2022-09-07 23:53:08,490 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:08,840 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:09,090 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:09,482 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:09,672 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:22,935 :  colorbar.py : DEBUG : 620 : locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C6211DB448>
+2022-09-07 23:53:22,935 :  colorbar.py : DEBUG : 665 : Using auto colorbar locator <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C6211DB448> on colorbar
+2022-09-07 23:53:22,939 :  colorbar.py : DEBUG : 794 : Setting pcolormesh
+2022-09-07 23:53:23,011 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:23,259 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:23,383 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:23,623 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:23,834 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:32,585 :  colorbar.py : DEBUG : 620 : locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C62145CBC8>
+2022-09-07 23:53:32,585 :  colorbar.py : DEBUG : 665 : Using auto colorbar locator <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001C62145CBC8> on colorbar
+2022-09-07 23:53:32,585 :  colorbar.py : DEBUG : 794 : Setting pcolormesh
+2022-09-07 23:53:32,730 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:32,906 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:33,034 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:33,246 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-07 23:53:33,406 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
