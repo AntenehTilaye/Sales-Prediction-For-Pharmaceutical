@@ -4,6 +4,8 @@ logging.basicConfig(filename='../logs/sales.log',
                     level=logging.DEBUG, 
                     format="%(asctime)s :  %(filename)s : %(levelname)s : %(lineno)d : %(message)s")
 
+logging.getLogger('matplotlib.font_manager').disabled = True
+
 def d(text):
     logging.debug(text)
 
