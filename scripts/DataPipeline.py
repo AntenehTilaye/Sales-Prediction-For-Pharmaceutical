@@ -1,8 +1,7 @@
-import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-from sklearn.preprocessing import MinMaxScaler, StandardScaler, Normalizer
 
+import pandas as pd
+
+import Log
 
 class DataPipeline:
     
@@ -13,6 +12,8 @@ class DataPipeline:
         data['StateHoliday'] = data['StateHoliday'].astype(int)
         data['PromoInterval'] = data['PromoInterval'].astype(int)
         
+        
+        Log.i("convert columns to integer")
         return data
     
     
@@ -24,6 +25,8 @@ class DataPipeline:
         data['QuadYear'] = pd.DatetimeIndex(data['Date']).quarter
         data['DayOfYear'] = pd.DatetimeIndex(data['Date']).day_of_year
         
+        
+        Log.i("Adding more columns to the DataFrame, year, month etc")
         return data
 
     def map_data(self, data: pd.DataFrame) -> pd.DataFrame:
@@ -35,6 +38,9 @@ class DataPipeline:
         data.Assortment.replace(mappings, inplace=True)
         data.StateHoliday.replace(mappings, inplace=True)
         data.PromoInterval.replace(mappings2, inplace=True)
+        
+        
+        Log.i("mapping data character to integers and ranges to integers")
         
         return data
         
@@ -55,6 +61,9 @@ class DataPipeline:
         df = self.map_data(df)
         df = self.add_help_columns(df)
         df = self.convert_to_int(df)
+        
+        
+        Log.i("Data pipeline finished running")
         
         return df
         
