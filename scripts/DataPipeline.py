@@ -2,6 +2,7 @@
 import pandas as pd
 
 import Log
+from DataUtils import fill_using_mode
 
 class DataPipeline:
     
@@ -24,6 +25,7 @@ class DataPipeline:
         data['Day'] = pd.DatetimeIndex(data['Date']).day    
         data['QuadYear'] = pd.DatetimeIndex(data['Date']).quarter
         data['DayOfYear'] = pd.DatetimeIndex(data['Date']).day_of_year
+        data['WeekOfYear'] = pd.DatetimeIndex(data['Date']).weekofyear
         
         
         Log.i("Adding more columns to the DataFrame, year, month etc")
@@ -43,7 +45,38 @@ class DataPipeline:
         Log.i("mapping data character to integers and ranges to integers")
         
         return data
+
+    def create_isPromo2(self, data: pd.DataFrame) -> pd.DataFrame:
+
+        a = data.copy()
+        one = [1,4,7,10]
+        two = [2,5,8,11]
+        three = [3,6,9,12]
+
+        val = []
+        for i in range(a.shape[0]):
+            if(a.loc[i, 'PromoInterval'] == 0):
+                val.append(0)
+            elif(a.loc[i, 'PromoInterval'] == 1 and (a.loc[i, 'Month'] in one) and a.loc[i, 'Year'] >= a.loc[i, 'Promo2SinceYear'] and a.loc[i, 'WeekOfYear'] >= a.loc[i, 'Promo2SinceWeek']):
+                val.append(1)
+            elif(a.loc[i, 'PromoInterval'] == 2 and (a.loc[i, 'Month'] in two) and a.loc[i, 'Year'] >= a.loc[i, 'Promo2SinceYear'] and a.loc[i, 'WeekOfYear'] >= a.loc[i, 'Promo2SinceWeek']):
+                val.append(1)
+            elif(a.loc[i, 'PromoInterval'] == 3 and (a.loc[i, 'Month'] in three) and a.loc[i, 'Year'] >= a.loc[i, 'Promo2SinceYear'] and a.loc[i, 'WeekOfYear'] >= a.loc[i, 'Promo2SinceWeek']):
+                val.append(1)
+            else:
+                val.append(0)
+
         
+        data['isPromo2'] = val
+        Log.i("mapping data character to integers and ranges to integers")
+        
+        return data
+        
+    def drop_unwanted_columns(self, data: pd.DataFrame) -> pd.DataFrame:
+
+        data.drop(columns=['Unnamed: 0'], inplace=True)
+        
+        return data
         
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -58,9 +91,12 @@ class DataPipeline:
         '''
          
         
+        df = self.drop_unwanted_columns(df)
         df = self.map_data(df)
         df = self.add_help_columns(df)
         df = self.convert_to_int(df)
+        # df = self.create_isPromo2(df)
+        df = fill_using_mode(df, ['Open'])
         
         
         Log.i("Data pipeline finished running")
