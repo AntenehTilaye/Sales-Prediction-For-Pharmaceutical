@@ -1,4 +1,4 @@
-name: CML & DVC
+name: CML
 on: [push]
 jobs:
   run:
@@ -8,42 +8,14 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.pull_request.head.sha }}
-      - name: Train model
+      - name: Train Model
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cml ci --unshallow
-          pip install -r requirements.txt  # Install dependencies
-          dvc pull data --run-cache        # Pull data & run-cache from S3
-          dvc repro                        # Reproduce pipeline
-      - name: Create CML report
+          pip install -r requirements.txt
+
+      - name: Create CML Report
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "## Metrics" >> report.md
-          dvc metrics diff master --show-md >> report.md
-
-          # Publish confusion matrix diff
-          echo "## Plots" >> report.md
-          echo "### Class confusions" >> report.md
-          dvc plots diff \
-            --target classes.csv \
-            --template confusion \
-            -x actual \
-            -y predicted \
-            --show-vega master > vega.json
-          vl2png vega.json -s 1.5 > plot.png
-          cml publish --md plot.png >> report.md
-
-          # Publish regularization function diff
-          echo "### Effects of regularization" >> report.md
-          dvc plots diff \
-            --target estimators.csv \
-            -x Regularization \
-            --show-vega master > vega.json
-          vl2png vega.json -s 1.5 > plot.png
-          cml publish --md plot.png >> report.md
-
-          cml send-comment report.md
