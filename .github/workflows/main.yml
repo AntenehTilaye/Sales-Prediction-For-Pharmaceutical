@@ -1,0 +1,17 @@
+name: CML
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    container: docker://ghcr.io/iterative/cml:0-dvc2-base1
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Train model
+        run: |
+          pip install -r requirements.txt
+          
+
+          cat "# report sample" >> report.md
+          cml send-comment report.md
