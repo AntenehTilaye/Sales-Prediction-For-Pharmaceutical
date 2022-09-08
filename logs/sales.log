@@ -140,3 +140,21 @@
 2022-09-07 23:53:33,034 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
 2022-09-07 23:53:33,246 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
 2022-09-07 23:53:33,406 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-08 00:21:58,408 :  Log.py : INFO : 13 : mapping data character to integers and ranges to integers
+2022-09-08 00:22:02,161 :  Log.py : INFO : 13 : Adding more columns to the DataFrame, year, month etc
+2022-09-08 00:22:02,177 :  Log.py : INFO : 13 : convert columns to integer
+2022-09-08 00:22:02,221 :  Log.py : DEBUG : 10 : Filling a DataFrame using Mode
+2022-09-08 00:22:02,221 :  Log.py : INFO : 13 : Data pipeline finished running
+2022-09-08 00:22:02,293 :  Log.py : INFO : 13 : mapping data character to integers and ranges to integers
+2022-09-08 00:22:02,418 :  Log.py : INFO : 13 : Adding more columns to the DataFrame, year, month etc
+2022-09-08 00:22:02,422 :  Log.py : INFO : 13 : convert columns to integer
+2022-09-08 00:22:02,422 :  Log.py : DEBUG : 10 : Filling a DataFrame using Mode
+2022-09-08 00:22:02,422 :  Log.py : INFO : 13 : Data pipeline finished running
+2022-09-08 00:26:31,619 :  colorbar.py : DEBUG : 620 : locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001B18010CE88>
+2022-09-08 00:26:31,623 :  colorbar.py : DEBUG : 665 : Using auto colorbar locator <matplotlib.colorbar._ColorbarAutoLocator object at 0x000001B18010CE88> on colorbar
+2022-09-08 00:26:31,623 :  colorbar.py : DEBUG : 794 : Setting pcolormesh
+2022-09-08 00:26:31,695 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-08 00:26:32,020 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-08 00:26:32,268 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-08 00:26:32,608 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
+2022-09-08 00:26:32,760 :  _base.py : DEBUG : 2820 : top of axes not in the figure, so title not moved
