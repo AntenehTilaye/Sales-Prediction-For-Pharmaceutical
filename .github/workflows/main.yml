@@ -9,12 +9,8 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Train Model
-        env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
       - name: Create CML Report
-        env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "## Metrics" >> report.md
