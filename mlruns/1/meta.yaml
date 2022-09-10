@@ -1,0 +1,4 @@
+artifact_location: file:///C:/Users/user/Desktop/TenAcademy/Sales-Prediction-For-Pharmaceutical/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: forecast_randomforest
